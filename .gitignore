@@ -1,0 +1,6 @@
+nvm/versions
+go/
+*dump*
+ssh_known_hosts
+code-server/config.yaml
+gtk*/
