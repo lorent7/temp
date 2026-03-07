@@ -1,0 +1,4 @@
+[safe]
+	directory = /home/lori/Docker/
+[credential]
+	helper = cache
