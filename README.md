@@ -11,7 +11,16 @@ I'm trying to make this smart but we'll see.
 Clone this repo wherever you have `$XDG_CONFIG_HOME` set i guess.
 
 To use aliases:
+
 ```sh
 # .bashrc / .zshrc
 source $XDG_CONFIG_HOME/.shared/aliases.sh
+```
+
+```sh
+#
+# ~/.bash_profile
+#
+declare file=~/.config/bash/.bashrc
+[[ -f $file ]] && . $file
 ```
