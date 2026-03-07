@@ -18,12 +18,18 @@ export npm_config_cache="$XDG_CACHE_HOME/npm"
 export VIMINIT='set viminfofile=$XDG_STATE_HOME/viminfo | source ~/.vimrc'
 
 # self explanatory but if its bash, give it bash history file location
-if [[ "$0" == *bash* ]]; then
+if [ -n "$BASH_VERSION" ]; then
     export HISTFILE="$XDG_STATE_HOME/bash_history"
 fi
+
 # same but zsh
-if [[ "$0" == *zsh* ]]; then
+if  [ -n "$ZSH_VERSION" ]; then
     export HISTFILE="$XDG_STATE_HOME/zsh_history"
+    # Path to your Oh My Zsh installation.
+    export ZSH="$XDG_DATA_HOME/oh-my-zsh"
+    export ZSH_CACHE_DIR="$XDG_CACHE_HOME/zsh"
+    mkdir -p "$ZSH_CACHE_DIR"
+    
     SAVEHIST=5000 # max saved cmds in ram
     HISTSIZE=5000 # max saved cmds in history file
 fi

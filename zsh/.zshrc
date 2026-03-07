@@ -1,12 +1,11 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
-export HISTFILE="$XDG_STATE_HOME/zsh_history"
-export ZSH_CACHE_DIR="$XDG_CACHE_HOME/zsh"
-mkdir -p "$ZSH_CACHE_DIR"
+# import env vars
+source ~/.config/.shell/env.sh
 
-# Path to your Oh My Zsh installation.
-export ZSH="$XDG_DATA_HOME/oh-my-zsh"
+# import aliases
+source $XDG_CONFIG_HOME/.shell/aliases.sh
 
 ZSH_THEME="robbyrussell"
 
@@ -80,8 +79,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-alias cat='bat'
 
 # activate nvm
 source /usr/share/nvm/init-nvm.sh
