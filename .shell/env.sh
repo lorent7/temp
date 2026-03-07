@@ -15,7 +15,7 @@ export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 export npm_config_cache="$XDG_CACHE_HOME/npm"
 
-export VIMINIT='set viminfofile=$XDG_STATE_HOME/viminfo | source ~/.vimrc'
+export VIMINIT="set viminfofile=$XDG_STATE_HOME/viminfo | source $XDG_CONFIG_HOME/vim/vimrc"
 
 # self explanatory but if its bash, give it bash history file location
 if [ -n "$BASH_VERSION" ]; then
