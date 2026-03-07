@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 # import aliases
-source $XDG_CONFIG_HOME/.shared/aliases.sh
+source $XDG_CONFIG_HOME/.shell/aliases.sh
 
 # to find available color numbers,
 # ~/apps/shell/display colors script

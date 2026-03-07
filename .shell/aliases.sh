@@ -1,6 +1,6 @@
 # shortcuts
 alias zshrc='nano $XDG_CONFIG_HOME/zsh/.zshrc'
-alias bashrc='nano ~/.bashrc'
+alias bashrc='nano $XDG_CONFIG_HOME/bash/.bashrc'
 
 alias cat='bat'
 alias ts='tailscale'
