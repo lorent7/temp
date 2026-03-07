@@ -1,10 +1,10 @@
 # shortcuts
 alias zshrc='nano $XDG_CONFIG_HOME/zsh/.zshrc'
 alias bashrc='nano $XDG_CONFIG_HOME/bash/.bashrc'
+alias cputemp='watch -n 1 sensors'
 
 alias cat='bat'
 alias ts='tailscale'
-alias cputemp='watch -n 1 sensors'
 
 # cd
 alias ...='cd ../..'
