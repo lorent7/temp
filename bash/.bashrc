@@ -5,6 +5,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# import env vars
+source ~/.config/.shell/env.sh
+
 # import aliases
 source $XDG_CONFIG_HOME/.shell/aliases.sh
 
