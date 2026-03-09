@@ -1,2 +1,14 @@
 set hidden true
 set previewer ~/.config/lf/previewer.sh
+map d
+
+
+# Press 'a' to create a file, 'A' for a directory
+cmd create_file %touch "$@"
+map a push :create_file<space>
+
+cmd create_dir %mkdir -p "$@"
+map A push :create_dir<space>
+
+cmd remove %rm -r "$f"
+map dD push :remove
