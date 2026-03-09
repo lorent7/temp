@@ -15,6 +15,8 @@ export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 export npm_config_cache="$XDG_CACHE_HOME/npm"
 
+export EDITOR="nano"
+
 export VIMINIT="set viminfofile=$XDG_STATE_HOME/viminfo | source $XDG_CONFIG_HOME/vim/vimrc"
 
 # self explanatory but if its bash, give it bash history file location
@@ -29,7 +31,7 @@ if  [ -n "$ZSH_VERSION" ]; then
     export ZSH="$XDG_DATA_HOME/oh-my-zsh"
     export ZSH_CACHE_DIR="$XDG_CACHE_HOME/zsh"
     mkdir -p "$ZSH_CACHE_DIR"
-    
+
     SAVEHIST=5000 # max saved cmds in ram
     HISTSIZE=5000 # max saved cmds in history file
 fi
