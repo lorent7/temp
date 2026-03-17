@@ -1,5 +1,8 @@
 set hidden true
+set mouse true
 set previewer ~/.config/lf/previewer.sh
+map v $bat --paging=always "$f"
+
 
 # Press 'a' to create a file, 'A' for a directory
 cmd create_file %touch "$@"
