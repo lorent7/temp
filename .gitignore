@@ -4,3 +4,5 @@ go/
 ssh_known_hosts
 code-server/config.yaml
 gtk*/
+.zshrc.bck
+
