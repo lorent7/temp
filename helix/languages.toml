@@ -13,6 +13,7 @@ language-servers = [
 
 [[language]]
 name = "typescript"
+formatter = { command = "prettier", args = ["--parser", "typescript"]}
 language-servers = [
   "typescript-language-server",
   "vscode-eslint-language-server",
