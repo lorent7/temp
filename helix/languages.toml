@@ -18,6 +18,7 @@ language-servers = [
   "typescript-language-server",
   "vscode-eslint-language-server",
 ]
+
 [[language]]
 name = "tsx"
 language-servers = [
@@ -31,7 +32,12 @@ auto-format = true
 formatter = { command = "prettier", args = ["--parser", "vue"] }
 language-servers = ["typescript-language-server"]
 
+[[language]]
+name = "markdown"
+formatter = { command = "prettier", args = ["--parser", "markdown"] }
+
 [[language-server.typescript-language-server.config.plugins]]
 name = "@vue/typescript-plugin"
 location = "/full/path/to/node_modules/@vue/typescript-plugin"
 languages = ["vue"]
+
