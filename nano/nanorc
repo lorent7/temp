@@ -344,6 +344,3 @@ bind ^G gotoline main
 bind ^Z undo main
 bind ^Y redo main
 
-# js highlighting
-include ~/.config/nano/javascript-nanorc/js.nanorc
-include ~/.config/nano/javascript-nanorc/ts.nanorc
