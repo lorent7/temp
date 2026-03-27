@@ -2,15 +2,16 @@ theme = "dark_plus"
 
 [editor]
 line-number = "relative"
-cursor-shape.insert = "bar"
 true-color = true
 idle-timeout = 0 # delay until autocomplete comes i think
 
-[keys.normal]
-"S-left" = "extend_char_left"
-"S-right" = "extend_char_right"
-"S-up" = "extend_line_up"
-"S-down" = "extend_line_down"
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
 
 [keys.insert]
 # move lines with alt up/down
@@ -19,3 +20,4 @@ A-up = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_befo
 
 "C-left" = "move_prev_long_word_start"
 "C-right" = "move_next_long_word_start"
+
