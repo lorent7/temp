@@ -2,12 +2,12 @@
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # import env vars
-source ~/.config/.shell/env.sh
+source ~/.config/.shell/.exports
 
 # import aliases
-source $XDG_CONFIG_HOME/.shell/aliases.sh
+source $XDG_CONFIG_HOME/.shell/.aliases
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="lambda" # set by `omz`
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
