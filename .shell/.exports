@@ -1,8 +1,17 @@
+# adjust these to your liking
+export EDITOR="helix"
+
+# These things don't need editing
+
+# XDG stuff
 export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
+export XDG_BIN_HOME="$HOME/.local/bin"
+export XDG_LIB_HOME="$HOME/.local/lib"
+export XDG_CACHE_HOME="$HOME/.cache"
 
+# python
 export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc"
 export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
 
@@ -12,12 +21,10 @@ export CARGO_HOME="$XDG_DATA_HOME/cargo"
 
 export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 
+# https://docs.npmjs.com/cli/v11/using-npm/config
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 export npm_config_cache="$XDG_CACHE_HOME/npm"
 
-export EDITOR="helix"
-
-export VIMINIT="set viminfofile=$XDG_STATE_HOME/viminfo | source $XDG_CONFIG_HOME/vim/vimrc"
 
 # self explanatory but if its bash, give it bash history file location
 if [ -n "$BASH_VERSION" ]; then
