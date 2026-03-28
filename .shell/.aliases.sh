@@ -3,6 +3,9 @@ alias zshrc='$EDITOR $XDG_CONFIG_HOME/zsh/.zshrc'
 alias bashrc='$EDITOR $XDG_CONFIG_HOME/bash/.bashrc'
 alias cputemp='watch -n 1 sensors'
 
+# dotfiles alias
+alias dotfiles='$(which git) --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+
 alias cat='bat'
 alias ts='tailscale'
 

@@ -6,10 +6,10 @@
 [[ $- != *i* ]] && return
 
 # import env vars
-source ~/.config/.shell/.exports
+source ~/.config/.shell/.exports.sh
 
 # import aliases
-source "$XDG_CONFIG_HOME/.shell/.aliases"
+source "$XDG_CONFIG_HOME/.shell/.aliases.sh"
 
 # to find available color numbers,
 # ~/apps/shell/display colors script
