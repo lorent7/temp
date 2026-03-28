@@ -35,6 +35,7 @@ language-servers = ["typescript-language-server"]
 [[language]]
 name = "markdown"
 formatter = { command = "prettier", args = ["--parser", "markdown"] }
+language-servers = ["marksman"]
 
 [[language-server.typescript-language-server.config.plugins]]
 name = "@vue/typescript-plugin"
