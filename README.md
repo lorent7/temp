@@ -1,5 +1,9 @@
 # Dotfiles
 
+> [!IMPORTANT]
+> Repo moved to new [Dotfiles repo](../dotfiles) and will not be updated!
+
+
 ## Description
 
 Contains my configs primarily for arch.  
