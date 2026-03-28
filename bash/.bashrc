@@ -9,7 +9,7 @@
 source ~/.config/.shell/.exports
 
 # import aliases
-source $XDG_CONFIG_HOME/.shell/.aliases
+source "$XDG_CONFIG_HOME/.shell/.aliases"
 
 # to find available color numbers,
 # ~/apps/shell/display colors script
@@ -29,5 +29,3 @@ RESET="\[$(tput sgr0)\]"
 # without error code
 PS1="[${PURPLE}\u@\h \W${RESET}] \$ "
 
-# for nvm?
-source /usr/share/nvm/init-nvm.sh
