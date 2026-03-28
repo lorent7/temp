@@ -1,10 +1,12 @@
-# .config
+# Dotfiles
 
 ## Description
 
-Contains configs for `~/.config/`.  
+Contains my configs primarily for arch.  
 Will get extended over time.  
 I'm trying to make this smart but we'll see.
+
+Inspired by [Lissy93](https://github.com/Lissy93/dotfiles)
 
 # Usage
 
