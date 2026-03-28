@@ -1,7 +1,7 @@
 # Dotfiles
 
 > [!IMPORTANT]
-> Repo moved to new [Dotfiles repo](../../../../dotfiles) and will not be updated!
+> Repo moved to new [Dotfiles repo](../../../dotfiles) and will not be updated!
 
 
 ## Description
